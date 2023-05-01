@@ -1,59 +1,61 @@
-## Análise de Dados do Spotify e YouTube
+## Spotify and YouTube Data Analysis
 
-Este é um projeto de análise de dados que utiliza um dataset do Spotify e YouTube disponível no Kaggle (https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube). Este dataset foi colectado em ***7 de Fevereiro de 2023***.
-O objetivo desta análise é obter insights sobre as músicas mais populares, e sobre artistas no Spotify e YouTube.
+This is a data analysis project using a Spotify and YouTube dataset available on Kaggle(https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube). This dataset was collected on ***February 7, 2023***.
 
-- Pré-requisitos
-Para executar este projeto, você precisará ter o Python 3 instalado em seu computador, além de algumas bibliotecas como Pandas, Matplotlib e Seaborn. Você pode instalá-las usando o pip com o seguinte comando:
+The purpose of this analysis is to gain insights into the most popular songs and artists on Spotify and YouTube.
+
+- Requirements
+
+To run this project, you will need to have Python 3 installed on your computer, as well as some libraries like Pandas, Matplotlib and Seaborn. You can install them using pip with the following command:
 
 
 ```pip install pandas matplotlib seaborn```
 
-### Instruções
-Para executar este projeto, siga os seguintes passos: 
+### Instructions
+To run this project, follow these steps:
 
-- Baixe o dataset do Spotify e YouTube do Kaggle (https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube) e extraia os arquivos para uma pasta em seu computador.
-- Abra o arquivo "pd.ipynb" em um Jupyter Notebook ou ambiente de desenvolvimento Python de sua preferência.
-- Execute as células do notebook para carregar, limpar e analisar os dados.
+- Download Spotify and YouTube dataset from Kaggle (https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube) and extract the files to a folder on your computer.
+- Open the "pd.ipynb" file in a Jupyter Notebook or Python development environment of your choice.
+- Run notebook cells to load, clean and analyze data.
 
 
 Dataset
 
-- O dataset contém informações sobre cerca de 19.691 músicas, incluindo seus artistas, popularidade, duração, nota, bem como as informações do vídeo correspondente no YouTube, como número de visualizações, curtidas.
+- The dataset contains information about about 19,691 songs, including their artists, popularity, duration, rating, as well as the corresponding video information on YouTube, such as number of views, likes.
 
-### Análise
-Nesta análise, exploramos as seguintes perguntas:
+### Analysis
+In this analysis, we explore the following questions:
 
-- Quais são as músicas mais populares no Spotify e YouTube?
+- What are the most popular songs on Spotify and YouTube?
 
-- Quais são os artistas mais populares no Spotify e YouTube?
+- What are the most popular artists on Spotify and YouTube?
 
-Para responder a essas perguntas, realizamos diversas análises exploratórias de dados, utilizando gráficos, tabelas e estatísticas descritivas.
+To answer these questions, we performed several exploratory data analyzes using charts, tables, and descriptive statistics.
 
-### Resultados
-Entre as conclusões alcançadas nesta análise, destacamos as seguintes:
+### Results
+Among the conclusions reached in this analysis, we highlight the following:
 
-As músicas mais populares no Spotify nem sempre são as mais populares no YouTube.
+The most popular songs on Spotify are not always the most popular songs on YouTube.
 
-- Os artistas mais populares no Spotify e YouTube são principalmente artistas famosos da cena Pop e Hip Hop.
-- As músicas mais curtas tendem a ser mais populares no Spotify, enquanto as músicas mais longas tendem a ser mais populares no YouTube.
-- Entre as músicas cristãs, algumas das mais populares incluem "Oceans" do grupo Hillsong United e "What A Beautiful Name" do grupo Hillsong Worship.
+- The most popular artists on Spotify and YouTube are mostly famous artists from the Pop and Hip Hop scene.
+- Shorter songs tend to be more popular on Spotify, while longer songs tend to be more popular on YouTube.
+- Among Christian songs, some of the most popular ones include "Oceans" by Hillsong United and "What A Beautiful Name" by Hillsong Worship.
 
-- Há uma grande correlação entre as curtidas e as visualizações no YouTube, significando que quanto maior for as visualizações, maior será as curtidas.
+- There is a strong correlation between likes and views on YouTube, meaning the higher the views, the higher the likes.
 
-### Conclusão
-Este projeto de análise de dados do Spotify e YouTube nos forneceu diversas informações interessantes sobre as músicas mais populares e artistas. É importante destacar que essas informações são relativas ao dataset utilizado e podem variar ao longo do tempo, de acordo com as mudanças na indústria musical e nas preferências do público. No entanto, a análise demonstra a importância dos dados na compreensão dos gostos e comportamentos do público em relação à música,além de fornecer uma base sólida para futuras análises e tomada de decisões relacionadas à indústria musical.
+### Conclusion
+This Spotify and YouTube data analysis project has given us a lot of interesting information about the most popular songs and artists. It is important to point out that this information is relative to the dataset used and may vary over time, according to changes in the music industry and public preferences. However, the analysis demonstrates the importance of data in understanding the tastes and behavior of the public towards music, in addition to providing a solid basis for future analyzes and decision-making related to the music industry.
 
-A seguir, estão alguns dos gráficos gerados durante a análise:
+Below are some of the graphs generated during the analysis:
 
-_Dispersão Spotify e Youtube_
+_Dispersion Spotify and Youtube_
 ![Dispersão Spotify e Youtube](images/dispers%C3%A3o_spotify_e_youtube.png)
 
-_Top 10 no Spotify_
+_Top 10 on Spotify_
 ![Top 10 no Spotify](images/top_10_spotify%20.png)
 
-_Top 10 no YouTube_
+_Top 10 on YouTube_
 ![Top 10 no YouTube](images/top_10_youtube.png)
 
-### Contribuição
-Este projeto é aberto a contribuições e melhorias. Se você quiser contribuir, pode fazer um fork deste repositório, criar um branch com suas alterações e enviar um pull request para ser revisado.
+### Contribution
+This project is open to contributions and improvements. If you want to contribute, you can fork this repository, create a branch with your changes, and submit a pull request for review.
